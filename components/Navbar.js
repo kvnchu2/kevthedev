@@ -66,7 +66,7 @@ const Navbar = () => {
               </div>
 
 
-              <div className="dropdown">
+              {/* <div className="dropdown">
                 <button className="dropbtn">Services
                   <i className="fa fa-caret-down"></i>
                 </button>
@@ -75,17 +75,9 @@ const Navbar = () => {
                   <Link href="/services/privatekinesiology"><a href="#">Private Kinesiology</a></Link>
                   <Link href="/services/onlinetelerehab"><a href="#">Online/Telerehab</a></Link>
                 </div>
-              </div>
+              </div> */}
               
-              <div
-                  onClick={() => {
-                    
-                    setNavActive(false);
-                  }}
-                  key="FAQ"
-                >
-                  <NavItem text="FAQ" href="/faq"  />
-              </div>
+              
 
               <div
                   onClick={() => {

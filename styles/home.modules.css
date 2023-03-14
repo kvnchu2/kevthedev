@@ -32,7 +32,7 @@ main {
   }
   #hero .hero-content {
     width: 96%;
-    max-width: 57.2em;
+    max-width: 63.5em;
     margin: auto;
     position: relative;
     z-index: 10;
@@ -110,10 +110,10 @@ main {
     padding: 6.15em 0 11.45em 0;
     z-index: 1;
     overflow: hidden;
-    background: url("../public/images/neckstretch.jpg");
+    /* background: url("../public/images/neckstretch.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
   #hero .hero-content {
     display: flex;
