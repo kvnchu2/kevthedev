@@ -47,6 +47,16 @@ export default function Home() {
           </div>
       </section>
 
+
+      <section id="services">
+        <div className="services-content">
+          <div className="services-title">
+            <h3>Services</h3>
+            <h1>What we can offer to help your business scale online</h1>
+          </div>
+
+        </div>
+      </section>
     
     
     </>
