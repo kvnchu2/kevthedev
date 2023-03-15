@@ -132,11 +132,17 @@ main {
 @media only screen and (min-width: 64em) {
   #hero {
     padding-top: 10em;
-    padding-bottom: 14em;
+    padding-bottom: 7em;
     background-attachment: fixed;
   }
   #hero .business-casual {
     right: 2.5em;
+  }
+
+  .computer-picture > span{
+    width: 34em !important;
+    height: 20em !important;
+    margin-right: -10em !important;
   }
 }
 

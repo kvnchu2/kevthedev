@@ -2,27 +2,9 @@ import Navbar from "../components/Navbar";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import phone from '../public/images/phone.svg';
-import phoneDark from '../public/images/phone-dark.svg';
-import ryanCaselli from '../public/images/ryan-caselli.png';
-import Service1 from '../public/images/service11.svg';
-import Service2 from '../public/images/service22.svg';
-import Service3 from '../public/images/service33.svg';
-import Car from '../public/images/car-svgrepo-com.svg';
-import Calendar from '../public/images/calendar-svgrepo-com.svg';
-import Money from '../public/images/money-svgrepo-com.svg';
-import Fitness from '../public/images/fitness.jpg';
-import ProfileWoman from '../public/images/profile-woman.svg';
-import Profile from '../public/images/profile.svg';
-import Leaf from '../public/images/leaf.svg';
-import PersonalTraining from '../public/images/personal-training.jpg';
-import Acupuncture from '../public/images/acupuncture.jpg';
-import ElderCare from '../public/images/elder-care.jpg';
-import KinesioTaping from '../public/images/kinesio-taping.jpg';
-import Physiotherapy from '../public/images/physiotherapy.jpg';
-import Cupping from '../public/images/cupping.jpg';
-import Online from '../public/images/online.jpg';
-
+import Computer from "../public/images/Computer.svg";
+import phone from "../public/images/phone.svg";
+import phoneDark from "../public/images/phone-dark.svg";
 
 
 
@@ -58,6 +40,9 @@ export default function Home() {
                           </div>
                       </a>
                   </div>
+              </div>
+              <div className="computer-picture">
+                <Image  decoding="async" src={Computer} alt="" aria-hidden="true" width="21" height="21"></Image>
               </div>
           </div>
       </section>
