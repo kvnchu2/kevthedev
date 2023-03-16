@@ -54,8 +54,23 @@ export default function Home() {
             <h3>Services</h3>
             <h1>What we can offer to help your business scale online</h1>
           </div>
-
+          <div className="services-table">
+            <div className="services-table-item">
+              <p>hi</p>
+            </div>
+            <div className="services-table-item">
+              <p>hi</p>
+            </div>
+            <div className="services-table-item">
+              <p>hi</p>
+            </div>
+            <div className="services-table-item">
+              <p>hi</p>
+            </div>
+          </div>
         </div>
+
+        
       </section>
     
     
