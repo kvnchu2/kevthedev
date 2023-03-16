@@ -58,15 +58,18 @@ export default function Home() {
           <div className="services-table">
             <div className="services-table-item">
               <FontAwesomeIcon className="fa-desktop" icon={faDesktop} />
-              <p>Website Design</p>
-            </div>
-            <div className="services-table-item">
-              <FontAwesomeIcon className="fa-chart-simple" icon={faChartSimple} />
-              <p>Digital Marketing</p>
+              <h4>Website Design</h4>
+              <p>Having a website that is mobile optimized, fast, accessible and user friendly will ensure that patients have a good first impression and a positive experience when interacting with your brand online.</p>
             </div>
             <div className="services-table-item">
               <FontAwesomeIcon className="fa-gears" icon={faGears} />
-              <p>Web Application Development</p>
+              <h4>Web Application Development</h4>
+              <p>When you can't find an existing solution or have a very particular use case, we can design & develop custom web applications specifically for your needs.</p>
+            </div>
+            <div className="services-table-item">
+              <FontAwesomeIcon className="fa-chart-simple" icon={faChartSimple} />
+              <h4>Digital Marketing</h4>
+              <p>Digital marketing encompasses many various services which include a mix of paid digital advertising and search engine optimization. Our aim is to take the complexity out of this process.</p>
             </div>
           </div>
         </div>

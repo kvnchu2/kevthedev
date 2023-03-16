@@ -413,8 +413,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
     max-width: 63.5em;
+    margin: auto;
   }
 
   .services-content {
@@ -434,7 +434,7 @@ main {
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 5rem;
+    column-gap: 8rem;
     padding-top: 5rem;
   }
 
@@ -444,16 +444,34 @@ main {
     text-align: center;
   }
 
+  .services-table-item h4 {
+    padding-top: 1em;
+  }
+
+  .services-table-item p {
+    padding-top: 1em;
+    color: #595959
+  }
+
   .fa-desktop {
     color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
   }
 
   .fa-chart-simple {
     color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
   }
 
   .fa-gears {
     color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
   }
 }
 /* Dark mode */
