@@ -420,7 +420,7 @@ main {
   .services-content {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 63.5em;
   }
 
   .services-title {
@@ -433,15 +433,27 @@ main {
   .services-table {
     margin: auto;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     column-gap: 5rem;
     padding-top: 5rem;
   }
 
   .services-table-item {
-    width: 30rem;
+    width: 20rem;
     height: 15rem;
-    text-align: left;
+    text-align: center;
+  }
+
+  .fa-desktop {
+    color: blue;
+  }
+
+  .fa-chart-simple {
+    color: blue;
+  }
+
+  .fa-gears {
+    color: blue;
   }
 }
 /* Dark mode */

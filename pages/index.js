@@ -5,7 +5,8 @@ import Link from "next/link";
 import Computer from "../public/images/Computer.svg";
 import phone from "../public/images/phone.svg";
 import phoneDark from "../public/images/phone-dark.svg";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDesktop, faChartSimple, faGears } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -56,16 +57,16 @@ export default function Home() {
           </div>
           <div className="services-table">
             <div className="services-table-item">
-              <p>hi</p>
+              <FontAwesomeIcon className="fa-desktop" icon={faDesktop} />
+              <p>Website Design</p>
             </div>
             <div className="services-table-item">
-              <p>hi</p>
+              <FontAwesomeIcon className="fa-chart-simple" icon={faChartSimple} />
+              <p>Digital Marketing</p>
             </div>
             <div className="services-table-item">
-              <p>hi</p>
-            </div>
-            <div className="services-table-item">
-              <p>hi</p>
+              <FontAwesomeIcon className="fa-gears" icon={faGears} />
+              <p>Web Application Development</p>
             </div>
           </div>
         </div>
