@@ -55,16 +55,6 @@ const Navbar = () => {
                 >
                   <NavItem text="Home" href="/"  />
               </div>
-              <div
-                  onClick={() => {
-                    
-                    setNavActive(false);
-                  }}
-                  key="About"
-                >
-                  <NavItem text="About Us" href="/about"  />
-              </div>
-
 
               {/* <div className="dropdown">
                 <button className="dropbtn">Services

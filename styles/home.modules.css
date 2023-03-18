@@ -482,7 +482,7 @@ main {
     max-width: 63.5em;
     margin: auto;
     height: 33em;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
     margin-top: -3em;
   }
 
@@ -543,11 +543,53 @@ main {
     font-weight: bold;
   }
 }
-/* Dark mode */
+
+
+/*-- -------------------------- -->
+<---          Hire              -->
+<--- -------------------------- -*/
+/* Mobile */
 @media only screen and (min-width: 0em) {
- 
+
 }
 
 
+/* Inbetween */
+@media only screen and (min-width: 768px) {
+  
+}
 
+/* Large Desktop */
+@media only screen and (min-width: 1300px) {
+  #hire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    margin-top: -3em;
+    background-color: #021691;
+  }
+
+  .hire-content {
+    max-width: 63.5em;
+    margin: auto;
+  }
+
+  .hire-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hire-title h3{
+    padding-top: 2em;
+    color: white;
+  }
+
+  .hire-title h1 {
+    color: white;
+  }
+}
 

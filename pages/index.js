@@ -73,8 +73,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
 
-        
+      <section id="hire">
+        <div className="hire-content">
+          <div className="hire-title">
+            <h1>Ready to start a project together?</h1>
+            <h3>I'd love to connect. Let's get planning!</h3>
+          </div>
+        </div>
       </section>
     
     
