@@ -397,9 +397,75 @@ main {
 <--- -------------------------- -*/
 /* Mobile */
 @media only screen and (min-width: 0em) {
-  
 
-  
+  #services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 63.5em;
+    margin: auto;
+    height: 65em;
+    margin-top: -3em;
+  }
+
+  .services-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 63.5em;
+  }
+
+  .services-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+  }
+  .services-table {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10em;
+  }
+
+  .services-table-item {
+    width: 20rem;
+    height: 15rem;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  .services-table-item h4 {
+    padding-top: 1em;
+  }
+
+  .services-table-item p {
+    padding-top: 1em;
+    color: #595959
+  }
+
+  .fa-desktop {
+    color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
+  }
+
+  .fa-chart-simple {
+    color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
+  }
+
+  .fa-gears {
+    color: blue;
+    width: 4em;
+    height: 4em;
+    font-weight: bold;
+  }
 
 }
 /* Inbetween */
@@ -415,6 +481,9 @@ main {
     align-items: center;
     max-width: 63.5em;
     margin: auto;
+    height: 33em;
+    margin-bottom: 5em;
+    margin-top: -3em;
   }
 
   .services-content {
@@ -435,7 +504,7 @@ main {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 8rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .services-table-item {
