@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Kinwithkevin from "../public/images/kinesiology-with-kevin-high-resolution-logo-color-on-transparent-background.png";
+import Kevthedev from "../public/images/kevthedev.png";
 import Image from "next/image";
 import Pin from "../public/images/pin.svg";
 import FooterPhone from "../public/images/footer-phone.svg";
@@ -13,7 +13,7 @@ return (
       <div className="container">
           <div className="left-section">
               <div className="footer-logo">
-              <Image src={Kinwithkevin} alt=""/>
+              <Image src={Kevthedev} alt=""/>
               </div>
               <p>
                   Kevin is committed to providing the best form of care for your recovery and ensure he saves you time by being accessible to you at the community center gym or at home.

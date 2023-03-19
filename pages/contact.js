@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
     <section id="int-hero">
-        <h1 id="home-h">Contact Business</h1>
+        <h1 id="home-h">Contact</h1>
     </section>
 
     <section id="form">

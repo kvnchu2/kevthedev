@@ -5,7 +5,8 @@
 @media only screen and (min-width: 0em) {
   #int-hero {
     min-height: 50vh;
-    background: url("/images/about-mobile.jpg");
+    /* background: url("/images/about-mobile.jpg"); */
+    background-color: var(--primary);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@
     display: block;
     height: 100%;
     width: 100%;
-    background: #000;
+    /* background: #000; */
     opacity: .5;
     top: 0;
     left: 0;
@@ -53,7 +54,7 @@
 @media only screen and (min-width: 48em) {
   #int-hero {
     font-size: 20px;
-    background: url("/images/about.jpg");
+    /* background: url("/images/about.jpg"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
