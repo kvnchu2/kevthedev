@@ -81,6 +81,11 @@ export default function Home() {
             <h1>Ready to start a project together?</h1>
             <h3>I'd love to connect. Let's get planning!</h3>
           </div>
+          <Link href="/contact">
+            <div className="hire-button">
+              Contact Me
+            </div>
+          </Link>
         </div>
       </section>
     

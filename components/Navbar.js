@@ -20,9 +20,9 @@ const Navbar = () => {
         <div className="nav-div">
           <Link href={"/"}>
             <a>
-              <div className="logo">
+              {/* <div className="logo">
                 <Image src={Kinwithkevin} alt="kinesiologywithkevin"/>
-              </div>
+              </div> */}
             </a>
           </Link>
           <div

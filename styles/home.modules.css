@@ -16,7 +16,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #f1f1f1;
+    background-color: #00308F;
   }
   #hero:before {
     content: '';
@@ -47,7 +47,7 @@ main {
   #hero h1 {
     font-weight: bold;
     font-size: 2.8em;
-    color: #000000;
+    color: white;
     line-height: 1.17857143;
     margin-bottom: 0.41071429em;
   }
@@ -55,7 +55,7 @@ main {
     font-size: 0.9em;
     line-height: 1.5;
     margin-bottom: 1.33333333em;
-    color: #595959;
+    color: white;
   }
   #hero .buttons {
     display: flex;
@@ -82,12 +82,14 @@ main {
     display: inline-block;
     width: 1.16666667em;
     height: 1.16666667em;
+    color: white;
   }
   #hero .call-now .dark {
     display: none;
   }
   #hero .call-now span {
     display: block;
+    color: white;
   }
   #hero .call-now .text {
     font-size: 0.6em;
@@ -399,6 +401,10 @@ main {
 @media only screen and (min-width: 0em) {
 
   #services {
+    background-color: #ECEFFE;
+  }
+
+  .services-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -406,13 +412,6 @@ main {
     max-width: 63.5em;
     margin: auto;
     height: 65em;
-    margin-top: -3em;
-  }
-
-  .services-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 63.5em;
   }
 
   .services-title {
@@ -473,23 +472,21 @@ main {
   
 }
 /* Large Desktop */
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1024px) {
   #services {
+    background-color: #ECEFFE;
+  }
+
+  .services-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 63.5em;
     margin: auto;
-    height: 33em;
-    margin-bottom: 8em;
+    margin-bottom: 1em;
     margin-top: -3em;
-  }
-
-  .services-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 63.5em;
+    height: 33em;
   }
 
   .services-title {
@@ -503,8 +500,8 @@ main {
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    column-gap: 8rem;
-    padding-top: 3rem;
+    column-gap: 10rem;
+    margin-top: 2em;
   }
 
   .services-table-item {
@@ -574,6 +571,10 @@ main {
   .hire-content {
     max-width: 63.5em;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .hire-title {
@@ -591,5 +592,58 @@ main {
   .hire-title h1 {
     color: white;
   }
+
+  .hire-button {
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background: var(--primary);
+    line-height: 2.65;
+    width: 9em;
+    border-radius: 0.16666667em;
+    font-size: 0.9em;
+    font-family: "Roboto", sans-serif;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-top: 3em;
+  }
+
+  .hire-button:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: #10625e;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.16666667em;
+    transition: width .3s;
+  }
+
+  .hire-button:hover {
+    cursor: pointer;
+  }
+  .hire-button:hover:before {
+    width: 100%;
+    
+  }
+  button:hover {
+    cursor: pointer;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+  }
+
+  
 }
 
