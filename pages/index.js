@@ -16,15 +16,15 @@ export default function Home() {
       <section id="hero">
           <div className="hero-content">
               <div className="heroText">
-                  <h1 id="home-h">Empowering you through movement</h1>
+                  <h1 id="home-h">Your Business Deserves a Digital Upgrade</h1>
                   <p>
-                      Offering 1-on-1 exercise programs designed to give you a head start on recovery from injury or pain. Try Kinesiology training for performance and health.
+                      As a web developer, I upgrade your website to help market your business to potential customers. You get to focus on your business, I make sure they find you online.
                   </p>
                   <div className="buttons">
                       
                       <Link href="/contact">
                         <div className="button-solid">
-                          Book Now
+                          Get Started
                         </div>
                       </Link>
                       
