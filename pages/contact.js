@@ -9,7 +9,7 @@ const Contact = () => {
 
     <section id="form">
         <div className="left-section">
-            <span className="topper">Kinesiology with Kevin</span>
+            <span className="topper">KevTheDev</span>
             <h2>Send a Message</h2>
             <p>If you have any questions or concerns please feel free to reach out to us.  We respond to every call and email.</p>
             {/* <form id="contact" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true"> */}
