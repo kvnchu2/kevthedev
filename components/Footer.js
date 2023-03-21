@@ -16,7 +16,9 @@ return (
               <Image src={Kevthedev} alt=""/>
               </div>
               <p>
-                  Kevin is committed to providing the best form of care for your recovery and ensure he saves you time by being accessible to you at the community center gym or at home.
+                  Committed to building your digital presence and a brand that embodies your vision and purpose.
+                
+                  <br></br><br></br><br></br>Copyright © 2021-2023 KevTheDev - All Rights Reserved  
               </p>
           </div>
           <div className="right-section">
