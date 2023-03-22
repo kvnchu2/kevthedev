@@ -18,7 +18,7 @@ return (
               <p>
                   Committed to building your digital presence and a brand that embodies your vision and purpose.
                 
-                  <br></br><br></br><br></br>Copyright © 2021-2023 KevTheDev - All Rights Reserved  
+                  <br></br><br></br><br></br>Copyright © 2021-2023 KevTheDev - All Rights Reserved
               </p>
           </div>
           <div className="right-section">
@@ -26,6 +26,7 @@ return (
                   <ul>
                       <li><h2>Company</h2></li>
                       <li><Link href="/"><a>Home</a></Link></li>
+                      <li><Link href="/about"><a>About</a></Link></li>
                       <li><Link href="/contact"><a>Contact</a></Link></li>
                   </ul>
                   <ul>

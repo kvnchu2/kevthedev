@@ -811,7 +811,7 @@
   #footer .right-section .lists ul {
     padding: 0;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 2.5em;
   }
   #footer .right-section .lists ul:nth-of-type(3) {
     margin-top: 2.5em;
@@ -860,6 +860,8 @@
   }
   .footer-logo {
     padding-bottom: 3rem;
+    width: 50%;
+    margin: auto;
   }
 }
 /* Tablet */

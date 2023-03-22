@@ -23,10 +23,10 @@
     /* scaling the font size with the view width */
     font-size: min(2.31vw, .7em);
     /* using ems so we can use font size to scale the whole section */
-    width: 39.4375em;
+    width: 28em;
     height: 39.75em;
     position: relative;
-    margin-left: 5em;
+    margin: auto;
   }
   #sbs .cs-picture {
     border-radius: 1.5em;
@@ -54,7 +54,7 @@
   }
 
   #sbs .cs-picture1 {
-    width: 28em;
+    width: 100%;
     height: 36.3125em;
     left: 0;
     top: 0;
