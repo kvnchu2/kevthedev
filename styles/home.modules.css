@@ -105,6 +105,10 @@ main {
   #hero .business-casual {
     display: none;
   }
+
+  .computer-picture {
+    visibility: hidden;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 48em) {
@@ -142,6 +146,7 @@ main {
   }
 
   .computer-picture > span{
+    visibility: visible;
     width: 34em !important;
     height: 20em !important;
     margin-right: -10em !important;
@@ -402,6 +407,7 @@ main {
 
   #services {
     background-color: #ECEFFE;
+    padding-bottom: 3em;
   }
 
   .services-content {
@@ -548,6 +554,93 @@ main {
 <--- -------------------------- -*/
 /* Mobile */
 @media only screen and (min-width: 0em) {
+  #hire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 23em;
+    margin-top: -3em;
+    background-color: var(--primary);
+  }
+
+  .hire-content {
+    max-width: 63.5em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hire-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hire-title h3{
+    padding-top: 2em;
+    color: white;
+  }
+
+  .hire-title h1 {
+    color: white;
+  }
+
+  .hire-button {
+    color: #fff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background: var(--primary);
+    line-height: 2.65;
+    width: 9em;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.16666667em;
+    font-size: 0.9em;
+    font-family: "Roboto", sans-serif;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    margin-top: 3em;
+  }
+
+  .hire-button:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: #10625e;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.16666667em;
+    transition: width .3s;
+  }
+
+  .hire-button:hover {
+    cursor: pointer;
+  }
+  .hire-button:hover:before {
+    width: 100%;
+    
+  }
+  button:hover {
+    cursor: pointer;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+  }
 
 }
 
@@ -564,7 +657,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30em;
+    height: 23em;
     margin-top: -3em;
     background-color: var(--primary);
   }
