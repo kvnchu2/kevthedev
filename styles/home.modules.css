@@ -587,6 +587,7 @@ main {
 
   .hire-title h1 {
     color: white;
+    align-items: center;
   }
 
   .hire-button {
