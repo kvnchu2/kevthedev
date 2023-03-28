@@ -898,6 +898,9 @@
     max-width: initial;
     margin-bottom: 4.45em;
   }
+  #footer .right-section .lists ul {
+    margin-top: 0em;
+  }
   #footer .right-section .lists ul:nth-of-type(3) {
     margin-top: 0;
   }
