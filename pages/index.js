@@ -7,6 +7,8 @@ import phone from "../public/images/phone.svg";
 import phoneDark from "../public/images/phone-dark.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop, faChartSimple, faGears } from '@fortawesome/free-solid-svg-icons';
+import { faSquareCheck as farFaSquareCheck } from '@fortawesome/free-regular-svg-icons';
+import Value from "../public/images/value.jpg";
 
 
 
@@ -72,6 +74,66 @@ export default function Home() {
               <p>Digital marketing is composed of different services including paid digital advertising and search engine optimization. Our objective is to make this process less complicated for our clients.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="service-descriptors">
+        <div className="cs-container">
+            {/* left image section */}
+            <div className="cs-left">
+                <picture className="cs-picture cs-picture1" >
+                    <source media="(max-width: 600px)" srcSet="../public/images2/cabinets2-m.webp"></source>
+                    <source media="(min-width: 601px)" srcSet="../public/images2/cabinets2.jpg"></source>
+                    <div className="cs-picture11">
+                        <Image loading="lazy" decoding="async" src={Value} alt="house" width="450" height="581" />
+                    </div>
+                </picture>
+            </div>
+            {/* right content section */}
+            <div className="cs-right">
+              <h2>
+                What you can expect from my services
+              </h2>
+              <div className="service-descriptors-table">
+                <div className="service-descriptors-table-item">
+                  <div className="top-row">
+                  <FontAwesomeIcon className="fa-square-check" icon={farFaSquareCheck} />
+                  <h4>Hosting Fees Included</h4>
+                  </div>
+                  <div className="bottom-row">
+                    <p>Hosting fees are built right into the monthly payment.</p>
+                  </div>
+                </div>
+                <div className="service-descriptors-table-item">
+                <div className="top-row">
+                  <FontAwesomeIcon className="fa-square-check" icon={farFaSquareCheck} />
+                  <h4>Unlimited Edits</h4>
+                  </div>
+                  <div className="bottom-row">
+                    <p>Change anything you want at anytime and it will be done that day.</p>
+                  </div>
+                </div>
+                <div className="service-descriptors-table-item">
+                <div className="top-row">
+                  <FontAwesomeIcon className="fa-square-check" icon={farFaSquareCheck} />
+                  <h4>24/7 Customer Service</h4>
+                  </div>
+                  <div className="bottom-row">
+                    <p>Call direct anytime day or night, no phone trees or automated responses.</p>
+                  </div>
+                </div>
+                <div className="service-descriptors-table-item">
+                <div className="top-row">
+                  <FontAwesomeIcon className="fa-square-check" icon={farFaSquareCheck} />
+                  <h4>90+ Google Page Speed Score</h4>
+                  </div>
+                  <div className="bottom-row">
+                    <p>We can achieve a perfect 100 on GOogle Page Speed scores and boost your search ranking.</p>
+                  </div>
+                </div>
+              </div>
+                
+            </div>
         </div>
       </section>
 

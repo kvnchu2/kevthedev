@@ -1,0 +1,256 @@
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #service-descriptors {
+    padding: var(--sectionPadding);
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  #service-descriptors .cs-container {
+    width: 100%;
+    max-width: 61em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    
+  }
+  #service-descriptors .cs-left {
+    /* scaling the font size with the view width */
+    font-size: min(2.31vw, .7em);
+    /* using ems so we can use font size to scale the whole section */
+    width: 28em;
+    height: 39.75em;
+    position: relative;
+    margin: auto;
+  }
+  #service-descriptors .cs-picture {
+    border-radius: 1.5em;
+    /* clips img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #service-descriptors .cs-picture .cs-picture11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes image act like a background image */
+    object-fit: cover;
+  }
+
+  .cs-picture11 > span {
+    position: unset !important;
+  }
+
+  .cs-picture22 > span {
+    position: unset !important;
+  }
+
+  #service-descriptors .cs-picture1 {
+    width: 100%;
+    height: 30em;
+    left: 0;
+    top: 4rem;
+  }
+  #service-descriptors .cs-picture2 {
+    width: 25.875em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+    /* 6px - 12px */
+    border: clamp(0.375em, 1.5vw, 0.75em) solid #ffffff;
+    right: 0;
+    bottom: 0;
+  }
+  #service-descriptors .cs-right {
+    margin: auto;
+    max-width: 22rem;
+  }
+  #service-descriptors .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  #service-descriptors .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 50rem;
+    margin: 0 auto 1rem;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #service-descriptors .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }
+  #service-descriptors .cs-text:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #service-descriptors .cs-flex-group {
+    /* 16px - 32px */
+    padding: clamp(1rem, 3vw, 2rem);
+    background-color: #F7F7F7;
+    border-radius: 1rem;
+    position: relative;
+  }
+  #service-descriptors .cs-flex-p {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    margin: 0 0 1rem;
+    color: #767676;
+  }
+  #service-descriptors .cs-name {
+    font-size: 1rem;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 0.25rem;
+    color: var(--headerColor);
+    display: block;
+  }
+  #service-descriptors .cs-job {
+    font-size: 0.875rem;
+    line-height: 1.5em;
+    color: #767676;
+    display: block;
+  }
+  #service-descriptors .cs-quote-icon {
+    /* 60px - 136px */
+    width: clamp(3.75rem, 10vw, 8.5rem);
+    height: auto;
+    position: absolute;
+    bottom: 0rem;
+    /* 16px - 32px */
+    right: clamp(1rem, 4vw, 2rem);
+  }
+  #service-descriptors .button-solid {
+    margin-top: 2rem;
+  }
+  .service-descriptors-table {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10em;
+  }
+
+  .service-descriptors-table-item {
+    width: 20rem;
+    height: 15rem;
+    text-align: center;
+    margin-top: 3em;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+  #service-descriptors .cs-container {
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  #service-descriptors .cs-left {
+    /* font-size: min(1.2vw, 1em); */
+    flex: none;
+    margin: 0;
+  }
+  #service-descriptors .cs-right {
+    margin: 0;
+    /* margin-top: 5.5em; */
+  }
+
+  #service-descriptors .cs-right {
+    margin: 0;
+    max-width: 40em;
+  }
+
+  #service-descriptors .cs-right h2 {
+    margin-left: 1.8em;
+  }
+
+  .service-descriptors-table {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5rem;
+    margin-top: 2em;
+    margin-left: 2.8em;
+  }
+
+  .service-descriptors-table-item {
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .service-descriptors-table-item .top-row{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .service-descriptors-table-item .bottom-row {
+    text-align: left;
+    padding-top: 1em;
+  }
+
+  .service-descriptors-table-item .bottom-row p {
+    color: #595959;
+  }
+
+  .fa-square-check {
+    color: #0e817c;
+    padding-right: 0.5em;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #service-descriptors .cs-left:before,
+  body.dark-mode #service-descriptors .cs-left:after {
+    background: var(--accent);
+  }
+  body.dark-mode #service-descriptors .cs-picture2 {
+    background-color: var(--dark);
+    /* 6px - 12px */
+    border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
+  }
+  body.dark-mode #service-descriptors .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #service-descriptors .cs-title,
+  body.dark-mode #service-descriptors .cs-text,
+  body.dark-mode #service-descriptors .cs-h3,
+  body.dark-mode #service-descriptors .cs-flex-p,
+  body.dark-mode #service-descriptors .cs-name {
+    color: var(--bodyTextColorWhite);
+  }
+  body.dark-mode #service-descriptors .cs-flex-group {
+    background-color: var(--accent);
+  }
+  body.dark-mode #service-descriptors .cs-job {
+    color: var(--bodyTextColorWhite);
+    opacity: .8;
+  }
+  body.dark-mode #service-descriptors .cs-quote-icon {
+    opacity: .2;
+  }
+}
