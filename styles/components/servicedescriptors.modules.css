@@ -73,6 +73,30 @@
     margin: auto;
     max-width: 22rem;
   }
+
+  #service-descriptors .cs-right h2{
+    text-align: left;
+  }
+
+  #service-descriptors .cs-right .top-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 1em;
+  }
+
+  #service-descriptors .cs-right .bottom-row{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+  #service-descriptors .cs-right .top-row .fa-square-check {
+    padding-right: 0.5em;
+    color: #0e817c;
+  }
+
   #service-descriptors .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
@@ -157,7 +181,7 @@
 
   .service-descriptors-table-item {
     width: 20rem;
-    height: 15rem;
+    height: 8rem;
     text-align: center;
     margin-top: 3em;
   }

@@ -128,7 +128,7 @@ export default function Home() {
                   <h4>90+ Google Page Speed Score</h4>
                   </div>
                   <div className="bottom-row">
-                    <p>We can achieve a perfect 100 on GOogle Page Speed scores and boost your search ranking.</p>
+                    <p>We can achieve a perfect 100 on Google Page Speed scores and boost your search ranking.</p>
                   </div>
                 </div>
               </div>
