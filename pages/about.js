@@ -35,8 +35,6 @@ const About = () => {
                 <p className="cs-text">
                 As a personal trainer whose job was put on hold during the pandemic, I was looking for other ways to market myself. I started creating my own website and fell in love with coding.
 
- 
-
                 <br></br><br></br>Fast forward to now, and I currently make websites for others as a second career! My hope is to continue helping other businesses flourish through websites like it did for mine.
 
                 <br></br><br></br>If you're looking for a freelance web developer, look no further!

@@ -512,7 +512,7 @@ main {
   }
 
   .services-table-item {
-    width: 20rem;
+    max-width: 20rem;
     height: 15rem;
     text-align: center;
   }
